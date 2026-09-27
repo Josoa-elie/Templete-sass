@@ -1,0 +1,53 @@
+.about {
+  width: 100%;
+  background-color: #F1F3F5;
+}
+.about .about-split {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+}
+.about .about-split .about-image img {
+  border-radius: 40px;
+}
+.about .about-split .about-text {
+  width: 624px;
+}
+.about .about-split .about-text .about-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: "pb";
+  color: #6E38F7;
+  padding-bottom: 32px;
+}
+.about .about-split .about-text .about-corps h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  padding-bottom: 32px;
+}
+.about .about-split .about-text .about-corps p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 170%;
+  padding-bottom: 32px;
+}
+.about .about-split .about-text .state-grid .frame {
+  width: 624px;
+  display: flex;
+  padding-bottom: 32px;
+}
+.about .about-split .about-text .state-grid .frame .state-tile h1 {
+  font-weight: 700;
+  line-height: 100%;
+  padding-bottom: 8px;
+}
+.about .about-split .about-text .state-grid .frame .state-tile p {
+  color: #495057;
+}
+.about .about-split .about-text .state-grid .frame .tile-1 {
+  width: 296px;
+}

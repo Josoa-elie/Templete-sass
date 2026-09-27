@@ -1,0 +1,201 @@
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  margin: 0;
+  padding: 0;
+}
+
+.title,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+body {
+  overflow-x: hidden;
+  font: normal 18px/35px;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: block;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  outline: none;
+  resize: none;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+ol li,
+ul li {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+@font-face {
+  font-family: "pr";
+  src: url("fonts/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "pb";
+  src: url("fonts/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: "psm";
+  src: url("fonts/Poppins-SemiBold.ttf");
+}
+@font-face {
+  font-family: "manropesm";
+  src: url("fonts/Manrope-SemiBold.ttf");
+}
+@font-face {
+  font-family: "manropemd";
+  src: url("fonts/Manrope-Medium.ttf");
+}
+@font-face {
+  font-family: "montsAltsm";
+  src: url("fonts/MontserratAlternates-SemiBold.ttf");
+}
+@font-face {
+  font-family: "montsAltr";
+  src: url("fonts/MontserratAlternates-Regular.ttf");
+}
+@font-face {
+  font-family: "montsAltmd";
+  src: url("fonts/MontserratAlternates-Medium.ttf");
+}
+@font-face {
+  font-family: "montsAltb";
+  src: url("fonts/MontserratAlternates-Bold.ttf");
+}
+@font-face {
+  font-family: "montsAltxl";
+  src: url("fonts/MontserratAlternates-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "outfitb";
+  src: url("fonts/Outfit-Bold.ttf");
+}
+.brand, .navbar .brand {
+  font-family: "pb";
+  color: #073C35;
+  font-size: 28px;
+}
+
+.links, .menu-links ul .links {
+  font-family: "pr";
+  color: #1C2422;
+}
+
+.cta-primaire {
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  background-clip: padding-box;
+}
+
+.btn-primary {
+  font-family: "montsAltmd";
+  font-size: 14px;
+  padding: 14px 28px 14px 28px;
+  background-color: #073C35;
+  color: #FFFFFF;
+  border: solid 1px;
+}
+
+.navbar {
+  width: 100%;
+  height: 90px;
+  padding: 0 80px;
+  border: red solid 1px;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between;
+  -ms-flex-pack: space-between;
+  align-items: center;
+}
+.navbar .brand {
+  display: flex;
+  align-items: baseline;
+  gap: 2px;
+}
+.navbar .brand img {
+  width: 6px;
+  height: 6px;
+}
+
+.menu-links ul {
+  display: flex;
+  gap: 40px;
+}
+.menu-links a {
+  font-size: 14px;
+}

@@ -1,0 +1,38 @@
+.hero {
+  width: 100%;
+  background-color: #F8F9FA;
+}
+.hero .hero-content {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  gap: 64px;
+}
+.hero .hero-left {
+  width: 624px;
+  height: 439px;
+}
+.hero .hero-left .hero-tag {
+  background-color: #6E38F710;
+  width: 281px;
+  height: 30px;
+  padding: 6px 14px;
+  border-radius: 20px;
+}
+.hero .hero-left .hero-txt {
+  padding-top: 32px;
+}
+.hero .hero-left .hero-txt .hero-txt__desc {
+  padding: 32px 0;
+}
+.hero .hero-left .hero-cta {
+  width: 100%;
+  display: flex;
+  gap: 16px;
+}
+.hero .hero-right {
+  width: 560px;
+  height: 560px;
+  border-radius: 40px;
+}

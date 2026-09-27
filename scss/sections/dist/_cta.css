@@ -1,0 +1,23 @@
+.cta-section {
+  background-color: #121214;
+}
+.cta-section .cta-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.cta-section .cta-content .frame:nth-child(1) {
+  width: 800px;
+}
+.cta-section .cta-content .frame:nth-child(1) h3 {
+  padding-bottom: 16px;
+}
+.cta-section .cta-content .frame:nth-child(1) p {
+  padding-bottom: 16px;
+}
+.cta-section .cta-content .frame:nth-child(2) {
+  display: flex;
+  gap: 16px;
+}

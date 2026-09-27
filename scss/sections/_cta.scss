@@ -1,0 +1,56 @@
+.cta-section{
+    background-color: #121214;
+    padding: 80px 24px;
+
+    @include breakpoint(md) {
+        padding: 64px 24px;
+    }
+
+    @include breakpoint(xs) {
+        padding: 48px 16px;
+    }
+
+    .cta-content{
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 32px;
+
+        .frame:nth-child(1){
+            width: min(100%, 800px);
+
+            h3{
+                padding-bottom: 16px;
+            }
+
+            p{
+                padding-bottom: 16px;
+            }
+        }
+
+        .frame:nth-child(2){
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 16px;
+            width: 100%;
+
+            @include breakpoint(md) {
+                width: min(100%, 600px);
+                flex-direction: row;
+                align-items: stretch;
+            }
+
+            @include breakpoint(xs) {
+                width: min(100%, 280px);
+                margin: 0 auto;
+                align-items: center;
+            }
+        }
+    }
+}

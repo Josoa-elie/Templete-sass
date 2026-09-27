@@ -1,0 +1,225 @@
+.brand{
+    font-family: $font-brand;
+    color: $band-color;
+    display: flex;
+    align-items: baseline;
+    gap: 2px;
+}
+
+.links{
+    font-family: $font-links;
+    color: #1C2422;
+}
+
+.active{
+    font-family: 'psm';
+    font-weight: 600;
+    color: #073C35;
+    padding-bottom: 3px;
+    border-bottom: 2px solid $underline-activ;
+}
+
+.langue{
+    font-family: $font-langue;
+}
+
+.hero-tag{
+    font-family: 'manropesm';
+    font-size: 13px;
+    font-weight: 600;
+    color: #6E38F7;
+}
+
+.hero-txt__title{
+    font-family: 'montsAltsm';
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 110.00000000000001%;
+    color: #121214;
+}
+
+.hero-txt__desc{
+    font-family: 'montsAltr';
+    font-size: 18px;
+    line-height: 160%;
+    color: #495057;
+}
+
+.about-corps{
+    h1{
+        font-family: 'montsAltb';
+    }
+
+    p{
+        font-family: 'montsAltr';
+    }
+}
+
+.state-grid{
+    .frame{
+        
+        .state-tile{
+        
+            h1{
+                font-family: 'outfitb';
+                font-size: 48px;
+            }
+
+
+            p{
+                font-family: 'manropemd';
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.services-intro{
+
+    h3{
+        font-family: 'pb';
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    p{
+        font-family: 'montsAltb';
+        font-size: 40px;
+        font-weight: 700;
+    }
+}
+
+.testimonials-intro{
+
+    h3{
+        font-family: 'pb';
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    p{
+        font-family: 'montsAltb';
+        font-size: 40px;
+        font-weight: 700;
+    }
+}
+
+.card-upper{
+    .icon-container{
+        p{
+            font-family: 'montsAltr';
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 170%;
+        }
+    }
+}
+
+.info-user{
+    h3{
+        font-family: 'outfitsm';
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 100%;
+        color: #121214;
+    }
+    p{
+        font-family: 'manroper';
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 100%;
+        color: #868E96;
+    }
+}
+
+.btn-primary-1{
+    font-family: 'manropesm';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.btn-secondary-dark{
+    font-family: 'manropesm';
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 100%;
+}
+
+.cta-content{
+    .frame:nth-child(1){
+        h3{
+            font-family: 'montsAltxl';
+            font-size: 48px;
+            font-weight: 800;
+            line-height: 114.99999999999999%;
+            color: #FFFFFF;
+        }
+
+        p{
+            font-family: 'montsAltr';
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 150%;
+            color: #868E96;
+        }
+    }
+}
+
+.footer-brand{
+    .logo{
+        font-family: 'outfitxl';
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 100%;
+        color: #121214;
+    }
+
+    p{
+        font-family: 'montsAltr';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 160%;
+        color: #495057;
+    }
+}
+
+.footer-col{
+    h3{
+        font-family: 'montsAltb'; 
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 100%;    
+    }
+
+    ul,
+    li,
+    a{
+     font-family: 'montsAltr';
+     font-size: 14px; 
+     font-weight: 400;
+     line-height: 100%;
+     color: #495057;  
+    }
+}
+
+.footer-lower{
+    p{
+        font-family: 'manroper';
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 100%;
+        color: #868E96;
+    }
+
+    .footer-legal,
+    ul,
+    li,
+    a{
+        font-family: 'manroper';
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 100%;
+        color: #868E96;
+    }
+}
