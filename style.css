@@ -459,12 +459,14 @@ a {
 }
 .navbar .brand {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   gap: 2px;
 }
 @media (max-width: 1024px) {
   .navbar .brand {
     padding-left: 20px;
+    display: flex;
+    align-items: center;
   }
 }
 .navbar .brand img {

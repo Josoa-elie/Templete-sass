@@ -23,12 +23,14 @@
     
     .brand{
         display: flex;
-        align-items: center;
+        align-items: baseline;
         gap: 2px;
         @extend .brand;
 
         @include breakpoint(md) {
             padding-left: 20px;
+            display: flex;
+            align-items: center;
         }
         img{
             width: 6px;
